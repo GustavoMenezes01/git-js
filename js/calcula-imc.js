@@ -32,7 +32,7 @@ if (!pesoValido) {
 if (!alturaValido) {
 	console.log("Altura invalida");
 	var alturaValido = false;
-	tdImc.textContent = "altura inválido";
+	tdImc.textContent = "Altura inválido";
 	paciente.classList.add("paciente-invalido");
 }
 
